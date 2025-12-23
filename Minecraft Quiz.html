@@ -23,21 +23,6 @@
             align-items: center;
             position: relative;
         }
-        .music-control {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            z-index: 100;
-            background: rgba(255,255,255,0.8);
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
         .container {
             background: rgb(255, 255, 255);
             border-radius: 20px;
@@ -527,7 +512,7 @@
                 <p style="font-size: 1.2em; margin: 15px 0;">${message}</p>
                 <p style="color: #636e72; margin: 10px 0;">Уровень сложности: <strong>${currentDifficulty === 'easy' ? 'Легкий' : 'Сложный'}</strong></p>
                 <p style="color: #636e72;">Процент правильных ответов: <strong>${Math.round(percentage)}%</strong></p>
-                <p style="color: #636e72; margin-top: 10px;">Музыка: <strong>C418 - Sweden</strong></p>
+                <p style="color: #636e72; margin-top: 10px;"></p>
             `;
         }
 
